@@ -23,6 +23,7 @@ public class User {
   private Long userId;
   private String username;
   private String password;
+  private String email;
 
   @OneToOne
   @JoinColumn(name="house_houseId", referencedColumnName = "houseId")
