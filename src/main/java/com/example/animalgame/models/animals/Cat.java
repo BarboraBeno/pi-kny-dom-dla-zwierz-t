@@ -14,8 +14,8 @@ import lombok.Setter;
 @DiscriminatorValue("Cat")
 public class Cat extends Animal{
 
-  public Cat(int level, int hunger, int attack, int defence,
+  public Cat(int level, int hunger, int love, int defence,
       Long startedAt, Long finishedAt, House house) {
-    super(null, "cat", level, hunger, attack, defence, startedAt, finishedAt, house);
+    super(null, "cat", level, hunger, love, defence, startedAt, finishedAt, house);
   }
 }

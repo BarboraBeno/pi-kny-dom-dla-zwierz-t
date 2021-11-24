@@ -14,8 +14,8 @@ import lombok.Setter;
 @DiscriminatorValue("Mouse")
 public class Mouse extends Animal{
 
-  public Mouse(int level, int hunger, int attack, int defence,
+  public Mouse(int level, int hunger, int love, int defence,
       Long startedAt, Long finishedAt, House house) {
-    super(null, "mouse", level, hunger, attack, defence, startedAt, finishedAt, house);
+    super(null, "mouse", level, hunger, love, defence, startedAt, finishedAt, house);
   }
 }

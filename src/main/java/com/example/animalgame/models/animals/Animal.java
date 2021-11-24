@@ -28,7 +28,7 @@ public abstract class Animal {
   private String type;
   private int level;
   private int hunger;
-  private int attack;
+  private int love;
   private int defence;
   private Long startedAt;
   private Long finishedAt;
